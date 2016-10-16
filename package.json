@@ -1,0 +1,25 @@
+{
+  "name": "haunted_night",
+  "version": "0.1.0",
+  "repository": {},
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "connect-browser-sync": "^2.0.1",
+    "connect-livereload": "^0.6.0",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-concat-sourcemap": "^0.4.3",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-express": "^1.4.1",
+    "grunt-ng-annotate": "^2.0.2",
+    "grunt-ngdocs": "^0.2.10",
+    "ngstorage": "^0.3.11"
+  }
+}

@@ -11,3 +11,7 @@ The main caracter will make a journey throught the dark forest and fight his fea
 This game will be coded with Angular.
 
 However, we want to use Grunt to compile Sass, to minify the js files, to setup the server Express,js and to run unit tests.
+
+
+To remove the EventEmitter memory leak warning
+do a "npm install -g npm@next"

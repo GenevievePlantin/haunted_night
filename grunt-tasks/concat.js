@@ -6,8 +6,9 @@ module.exports = function(grunt, globalConfig){
         },
         app: {
             src: [
-                '<%= globalConfig.assets %>/lib/bootstrap-select.min.js',
-                '<%= globalConfig.assets %>/lib/bootstrap-checkbox.min.js',
+                '<%= globalConfig.npm %>/underscore/underscore-min.js',
+                '<%= globalConfig.npm %>/ngstorage/ngStorage.min.js',
+                '<%= globalConfig.assets %>/lib/angular-ui-router.min.js',
                 '<%= globalConfig.applicationSrc %>/modules/app.js',
                 '<%= globalConfig.applicationSrc %>/providers/*js', 
                 '<%= globalConfig.applicationSrc %>/services/*.js',

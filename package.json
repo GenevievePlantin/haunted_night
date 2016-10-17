@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "repository": {},
   "devDependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
     "browser-sync": "^2.16.0",
     "connect-browser-sync": "^2.0.1",
     "connect-livereload": "^0.6.0",
@@ -20,6 +22,7 @@
     "grunt-express": "^1.4.1",
     "grunt-ng-annotate": "^2.0.2",
     "grunt-ngdocs": "^0.2.10",
-    "ngstorage": "^0.3.11"
+    "ngstorage": "^0.3.11",
+    "underscore": "^1.8.3"
   }
 }

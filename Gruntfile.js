@@ -9,6 +9,7 @@ module.exports = function(grunt) {
         assets:             '<%= globalConfig.src %>/assets',
         applicationSrc:     '<%= globalConfig.src %>/application',
         specificAssets:     '<%= globalConfig.src %>/assets/<%= APP_NAME %>',
+        npm:                'node_modules',  
         applicationDomain:    '<%= APP_DOMAIN %>',
         applicationPort:    '<%= PORT %>',
         watchedFiles: [
@@ -16,7 +17,7 @@ module.exports = function(grunt) {
             '<%= globalConfig.applicationSrc %>/**/*.js',
             '<%= globalConfig.applicationSrc %>/**/*.html'
         ],
-        watchTask: ['concat_sourcemap', 'copy', 'jshint',  'ngAnnotate']
+        watchTask: ['clean', 'copy', 'concat', 'jshint',  'ngAnnotate']
     };
     
     // ==================================================

@@ -21,3 +21,11 @@ Run `npm install` in the root of this project repository
 Run `grunt test` to generate all sources and to launch Express server
 
 Go to `localhost:3001` to see the application
+
+## Troubleshoot
+
+To remove the EventEmitter memory leak warning
+do a "npm install -g npm@next"
+
+
+

@@ -17,10 +17,15 @@
 	 * });
 	 * </pre>
 	 */
-	angular.module('HauntedNight.App').config(function(){
+	angular.module('HauntedNight.App').config(function($AppRouteStateProvider){
 		
+		$AppRouteStateProvider
+			.states();
 
-	}).run(function($window){
+		$AppRouteStateProvider
+			.otherwise();
+
+	}).run(function(){
 
 	});
 })(angular);

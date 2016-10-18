@@ -11,7 +11,9 @@
 	<body ng-controller="MainController as mainCtrl">
 		
 
-	<div>{{mainCtrl.message}}</div>
+		<div ui-view="menu"></div>
+		<div ui-view="content"></div>
+		<div ui-view="footer"></div>
 
 		<!-- BrowserSync scritp -->
 		<script id="__bs_script__">//<![CDATA[
